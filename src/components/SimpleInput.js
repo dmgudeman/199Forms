@@ -44,6 +44,7 @@ const SimpleInput = (props) => {
           id="name"
           onChange={nameInputChangeHandler}
           onBlur={nameInputBlurHandler}
+          value={enteredName}
         />
       </div>
       {nameInputIsInvalid && (
